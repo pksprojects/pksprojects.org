@@ -4,9 +4,11 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
+    "firebase": "firebase",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "deploy": "firebase deploy --token $FIREBASE_TOKEN",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
@@ -32,6 +34,7 @@
     "@types/jasmine": "2.5.45",
     "@types/node": "~6.0.60",
     "codelyzer": "~3.0.1",
+    "firebase-tools": "^3.7.0",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
     "karma": "~1.7.0",
